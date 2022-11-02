@@ -2935,8 +2935,13 @@ STATES = {
 	s:STATE_ULSTER = {
 		create_state = {
 			country = c:GBR
-			owned_provinces = { x688E79 x0A38AF x2BE1C8 xA06040 xCFCD2B xAA6FA1 x20E040 xA0C0E0 }
+			owned_provinces = { x688E79 x0A38AF x2BE1C8 xCFCD2B xAA6FA1 x20E040 }
 			state_type = unincorporated
+		}
+		create_state = {
+			country = c:IRE
+			owned_provinces = { xA06040 xA0C0E0 }
+			
 		}
 		
 		add_homeland = irish
@@ -2945,18 +2950,18 @@ STATES = {
 	}
 	s:STATE_MUNSTER = {
 		create_state = {
-			country = c:GBR
+			country = c:IRE
 			owned_provinces = { xEF3F71 xE06040 xF53F9B xBDAB32 xA0E0C0 x849939 x02061B xECB3A5 x969279 xD9BB34 }
-			state_type = unincorporated
+			
 		}
 		
 		add_homeland = irish
 	}
 	s:STATE_LEINSTER = {
 		create_state = {
-			country = c:GBR
+			country = c:IRE
 			owned_provinces = { xA0E040 xA2A933 x1E9CB2 xAEAF93 x2060C0 xCC3E24 x5B3F6F x5086D4 x60E040 }
-			state_type = unincorporated
+			
 		}
 		
 		add_homeland = irish
@@ -7126,9 +7131,9 @@ STATES = {
 	}
 	s:STATE_CONNAUGHT = {
 		create_state = {
-			country = c:GBR
+			country = c:IRE
 			owned_provinces = { x20E0C0 x641238 xE5C4FE xC7847D xA060C0 x5DEF58 x85F13B x656D90 }
-			state_type = unincorporated
+			
 		}
 		
 		add_homeland = irish
