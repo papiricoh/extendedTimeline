@@ -1261,10 +1261,22 @@
 				reserves=1
 				activate_production_methods={ "pm_intensive_grazing_ranch" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
+			create_building={
+				building="building_government_administration"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_vertical_filing_cabinets" }
+			}
 		}
 	}
 	s:STATE_MUNSTER={
 		region_state:IRE={
+			create_building={
+				building="building_government_administration"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_vertical_filing_cabinets" }
+			}
 			create_building={
 				building="building_rye_farm"
 				level=1
@@ -1298,6 +1310,12 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_scholastic_education" }
+			}
+			create_building={
+				building="building_government_administration"
+				level=3
+				reserves=1
+				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
 			create_building={
 				building="building_lead_mine"
@@ -1344,6 +1362,12 @@
 				level=2
 				reserves=1
 				activate_production_methods={ "pm_privately_owned" "pm_simple_farming" "pm_tools" "pm_potatoes" }
+			}
+			create_building={
+				building="building_government_administration"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
 			create_building={
 				building="building_barracks"
