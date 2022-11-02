@@ -66,6 +66,10 @@
 			country = c:KRA
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:HUN
+			type = personal_union
+		}
 	}
 	c:USA = {
 		create_diplomatic_pact = {
