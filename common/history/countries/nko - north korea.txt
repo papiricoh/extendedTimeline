@@ -1,8 +1,27 @@
 ﻿COUNTRIES = {
 	c:NKO = {
-		effect_starting_technology_tier_4_tech = yes
 		
-		effect_starting_politics_traditional = yes
+		set_tax_level = high
+		
+		effect_starting_technology_tier_1_tech = yes
+		effect_starting_politics_liberal = yes
+
+		activate_law = law_type:law_graduated_taxation
+		activate_law = law_type:law_command_economy
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_wage_subsidies
+		activate_law = law_type:law_public_health_insurance
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_outlawed_dissent
+		activate_law = law_type:law_child_labor_allowed
+		activate_law = law_type:law_serfdom
+		activate_law = law_type:law_no_womens_rights
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_closed_borders
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_ethnostate
+		activate_law = law_type:law_no_colonial_affairs
+		
 
 		ig:ig_trade_unions = { 
 			set_interest_group_name = "Popular Party"
