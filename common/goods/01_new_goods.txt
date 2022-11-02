@@ -1,0 +1,22 @@
+﻿# goods types, organized by category
+
+# prestige_factor							Base prestige for occupying the rank MIN_PRESTIGE_AWARD spot on the goods production leaderboard. x2 awarded for every rank above the minimum.
+
+microchips = {
+	texture = "gfx/interface/icons/goods_icons/microchips.dds"
+	cost = 100
+	category = luxury
+	
+	obsession_chance = 1.0
+	prestige_factor = 10
+	traded_quantity = 8
+}
+terminals = {
+	texture = "gfx/interface/icons/goods_icons/terminals.dds"
+	cost = 200
+	category = luxury
+	
+	obsession_chance = 1.0
+	prestige_factor = 14
+	traded_quantity = 8
+}
