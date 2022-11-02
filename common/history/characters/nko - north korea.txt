@@ -1,0 +1,18 @@
+﻿CHARACTERS = {
+	c:NKO = {
+		create_character = {
+			# Heonjong of Joseon
+			first_name = "Kim"
+			last_name = "Jong-un"
+			ruler = yes
+			birth_date = 1827.9.8
+			dna = dna_king_heonjong
+			interest_group = ig_trade_unions
+			ideology = ideology_reformer
+			traits = {
+				reserved
+			}
+		}	
+	}
+}
+
