@@ -20,3 +20,12 @@ terminals = {
 	prestige_factor = 14
 	traded_quantity = 8
 }
+medicines = {
+	texture = "gfx/interface/icons/goods_icons/medicines.dds"
+	cost = 20
+	category = staple
+	
+	obsession_chance = 1.0
+	prestige_factor = 16
+	traded_quantity = 20
+}

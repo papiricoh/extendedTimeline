@@ -58,3 +58,64 @@ pm_government_run_building_hospital = {
 		}
 	}
 }
+
+
+pm_basic_surgery_building_hospital = {
+	texture = "gfx/interface/icons/production_method_icons/crude_tools.dds"
+	
+	building_modifiers = { 
+		workforce_scaled = {
+			# input goods
+			building_input_tools_add = 10		# x20 = 800
+			building_output_medicines_add = 5		# x20 = 800
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_birth_rate_mult = 0.01
+			state_mortality_mult = -0.05
+		}
+	}
+}
+pm_extensive_vacunation_building_hospital = {
+	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
+	
+	unlocking_technologies = {
+		quinine
+	}
+
+	building_modifiers = { 
+		workforce_scaled = {
+			# input goods
+			building_input_tools_add = 30		# x20 = 800
+			building_output_medicines_add = 15		# x20 = 800
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_birth_rate_mult = 0.05
+			state_mortality_mult = -0.15
+		}
+	}
+}
+pm_advanced_surgery_building_hospital = {
+	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
+	
+	unlocking_technologies = {
+		antibiotics
+	}
+
+	building_modifiers = { 
+		workforce_scaled = {
+			# input goods
+			building_input_tools_add = 50		# x20 = 800
+			building_output_medicines_add = 25		# x20 = 800
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_birth_rate_mult = 0.1
+			state_mortality_mult = -0.25
+		}
+	}
+}

@@ -9,6 +9,7 @@ building_hospital = {
 	}
 	production_method_groups = {
 		pmg_ownership_capital_building_hospital
+		pmg_production_capital_building_hospital
 	}
 	required_construction = construction_cost_high
 	ai_value = 2000	# Railways are important
