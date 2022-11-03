@@ -1,6 +1,6 @@
 ﻿############ PRIVATE INFRASTRUCTURE
 building_hospital = {
-	building_group = bg_private_infrastructure
+	building_group = bg_hospitals
 	texture = "gfx/interface/icons/building_icons/building_hospital.dds"
 	has_max_level = yes
 	levels_per_mesh = 2
@@ -8,9 +8,7 @@ building_hospital = {
 		medical_degrees		##MEDICINE
 	}
 	production_method_groups = {
-		pmg_base_building_railway		##TODO HOSPITAL METHODS
-		pmg_passenger_trains
-		pmg_ownership_capital_building_railway
+		pmg_ownership_capital_building_hospital
 	}
 	required_construction = construction_cost_high
 	ai_value = 2000	# Railways are important
