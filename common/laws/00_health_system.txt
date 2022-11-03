@@ -20,7 +20,7 @@ law_charitable_health_system = {
 	progressiveness = 50
 	
 	modifier = {
-		state_building_hospitals_max_level_add = 1
+		state_building_hospital_max_level_add = 1
 	}
 
 	unlocking_technologies = {
@@ -131,7 +131,7 @@ law_private_health_insurance = {
 	
 	modifier = {
 		country_institution_health_system_max_investment_add = 2
-		state_building_hospitals_max_level_add = 2
+		state_building_hospital_max_level_add = 2
 	}
 	
 	institution = institution_health_system
@@ -195,7 +195,7 @@ law_public_health_insurance = {
 	
 	modifier = {
 		country_institution_health_system_max_investment_add = 2
-		state_building_hospitals_max_level_add = 2
+		state_building_hospital_max_level_add = 2
 	}		
 	
 	institution = institution_health_system
