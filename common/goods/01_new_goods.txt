@@ -27,5 +27,14 @@ medicines = {
 	
 	obsession_chance = 1.0
 	prestige_factor = 16
+	traded_quantity = 26
+}
+vaccines = {
+	texture = "gfx/interface/icons/goods_icons/vaccines.dds"
+	cost = 200
+	category = luxury
+	
+	obsession_chance = 1.0
+	prestige_factor = 30
 	traded_quantity = 20
 }
