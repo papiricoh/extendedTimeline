@@ -5,7 +5,7 @@ building_hospital = {
 	has_max_level = yes
 	levels_per_mesh = 2
 	unlocking_technologies = {
-		railways		##MEDICINE
+		medical_degrees		##MEDICINE
 	}
 	production_method_groups = {
 		pmg_base_building_railway		##TODO HOSPITAL METHODS
