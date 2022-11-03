@@ -1,0 +1,25 @@
+﻿############ PRIVATE INFRASTRUCTURE
+building_hospital = {
+	building_group = bg_private_infrastructure
+	texture = "gfx/interface/icons/building_icons/building_hospital.dds"
+	has_max_level = yes
+	levels_per_mesh = 2
+	unlocking_technologies = {
+		railways		##MEDICINE
+	}
+	production_method_groups = {
+		pmg_base_building_railway		##TODO HOSPITAL METHODS
+		pmg_passenger_trains
+		pmg_ownership_capital_building_railway
+	}
+	required_construction = construction_cost_high
+	ai_value = 2000	# Railways are important
+	should_auto_expand = {
+		OR = {
+			cash_reserves_ratio > 0.5
+			is_subsidized = yes
+		}
+		state.market_access < 1
+		owner.construction_queue_duration < max_autoexpand_queue_weeks
+	}
+}

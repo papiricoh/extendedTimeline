@@ -4,7 +4,7 @@
 		0.97
 		0.99
 	}
-	texture = "gfx/interface/icons/ig_icons/trade_unions.dds"
+	texture = "gfx/interface/icons/ig_icons/urbanists.dds"
 	ideologies = {
 		ideology_egalitarian
 		ideology_populist
