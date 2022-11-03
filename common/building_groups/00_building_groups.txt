@@ -599,14 +599,7 @@ bg_private_infrastructure = {
 }
 
 bg_hospitals = {
-	parent_group = bg_infrastructure
-	
-	is_government_funded = no
-	subsidized = yes
-	
-	cash_reserves_max = 25000
-	
-	urbanization = 5
+	parent_group = bg_government
 }
 
 bg_canals = {
