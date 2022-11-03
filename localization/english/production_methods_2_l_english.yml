@@ -76,3 +76,6 @@
  pm_privately_owned_building_hospital:0 "Private owned hospitals"
  pm_publicly_traded_building_hospital:0 "Stock market hospitals"
  pm_government_run_building_hospital:0 "Public hospitals"
+ pm_basic_surgery_building_hospital:0 "Basic Surgery Tecniques"
+ pm_extensive_vacunation_building_hospital:0 "Extensive Vacunation"
+ pm_advanced_surgery_building_hospital:0 "Advanced Surgery Tecniques"
