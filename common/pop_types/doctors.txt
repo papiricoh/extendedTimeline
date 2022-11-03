@@ -26,7 +26,7 @@
 			}
 		}
 	}
-	qualifications_growth_desc = "BUREAUCRATS_QUALIFICATIONS_DESC"
+	qualifications_growth_desc = "DOCTORS_QUALIFICATIONS_DESC"
 	qualifications = {
 		if = {
 			limit = {
