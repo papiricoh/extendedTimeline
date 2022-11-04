@@ -74,10 +74,14 @@
 
 
  pmg_ownership_capital_building_hospital:0 "Ownership"
- pm_privately_owned_building_hospital:0 "Private owned hospitals"
- pm_publicly_traded_building_hospital:0 "Stock market hospitals"
- pm_government_run_building_hospital:0 "Public hospitals"
+ pm_privately_owned_building_hospital:0 "Private owned"
+ pm_publicly_traded_building_hospital:0 "Stock market owned"
+ pm_government_run_building_hospital:0 "State owned"
  pmg_production_capital_building_hospital:0 "Service level"
  pm_basic_surgery_building_hospital:0 "Basic Surgery Tecniques"
  pm_extensive_vacunation_building_hospital:0 "Extensive Vacunation"
  pm_advanced_surgery_building_hospital:0 "Advanced Surgery Tecniques"
+
+ pmg_production_capital_building_vaccine_factory:0 "Production methods"
+ pm_hand_made_vaccines_building_vaccine_factory:0 "Handmade Vaccines"
+ pm_lab_made_vaccines_building_vaccine_factory:0 "Lab-made Vaccines"
