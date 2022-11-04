@@ -213,5 +213,6 @@
   # Skyscraper
  building_skyscraper:0 "Skyscraper"
  building_hospital:0 "Hospital"
+ building_vaccine_factory:0 "Vaccine Factory"
  
 
