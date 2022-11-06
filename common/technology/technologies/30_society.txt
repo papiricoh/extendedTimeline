@@ -936,7 +936,7 @@ paved_roads = {
 
 city_bombing_life = {
 	era = era_6
-	texture = "gfx/interface/icons/invention_icons/paved_roads.dds"
+	texture = "gfx/interface/icons/invention_icons/TODO.dds"
 	category = society
 	
 	modifier = {
