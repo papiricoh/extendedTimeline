@@ -933,17 +933,34 @@ paved_roads = {
 ##NEW ERAS
 #########
 
-
-city_bombing_life = {
+cryptographic_communication = { ##ENIGMA
+	##TODO: UNLOCKS MILITARY ADVANCED COMUNICATION
 	era = era_6
 	texture = "gfx/interface/icons/invention_icons/TODO.dds"
 	category = society
 	
 	modifier = {
-		state_infrastructure_from_population_add = 0.05
+		country_authority_mult = 0.1
+		state_bureaucracy_population_base_cost_factor_mult = -0.05
 	}
 	
 	unlocking_technologies = {	
-		behaviorism
+		mass_surveillance
+	}
+}
+
+turing_computer = { ##TURING MACHINE
+	##TODO: UNLOCKS MILITARY COUNTER-COMUNICATION
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/TODO.dds"
+	category = society
+	
+	modifier = {
+		country_authority_mult = 0.1
+		state_bureaucracy_population_base_cost_factor_mult = -0.05
+	}
+	
+	unlocking_technologies = {	
+		cryptographic_communication
 	}
 }
