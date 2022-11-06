@@ -930,7 +930,7 @@ paved_roads = {
 }
 
 #########
-NEW ERAS
+##NEW ERAS
 #########
 
 
@@ -941,8 +941,6 @@ city_bombing_life = {
 	
 	modifier = {
 		state_infrastructure_from_population_add = 0.05
-		state_infrastructure_from_population_max_add = 10
-		state_building_construction_sector_max_level_add = 5
 	}
 	
 	unlocking_technologies = {	
