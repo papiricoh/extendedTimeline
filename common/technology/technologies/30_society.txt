@@ -921,3 +921,33 @@ anti_communism_movements = {
 		analytical_philosophy
 	}
 }
+
+anti_fascist_movements = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/TODO.dds"
+	category = society
+	modifier = {
+		country_authority_mult = 0.05
+		state_bureaucracy_population_base_cost_factor_mult = -0.02
+	}
+	unlocking_technologies = {
+		anti_communism_movements
+		primitive_census_databases
+	}
+}
+
+##COLD WAR
+cold_wars = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/TODO.dds"
+	category = society
+	modifier = {
+		country_authority_mult = 0.1
+		state_bureaucracy_population_base_cost_factor_mult = 0.01
+	}
+	unlocking_technologies = {
+		anti_fascist_movements
+		medical_computers
+		secure_market_transactions
+	}
+}
