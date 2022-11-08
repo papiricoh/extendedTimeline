@@ -907,3 +907,17 @@ primitive_census_databases = {
 		secure_market_transactions
 	}
 }
+
+anti_communism_movements = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/TODO.dds"
+	category = society
+	modifier = {
+		country_authority_mult = 0.05
+		state_bureaucracy_population_base_cost_factor_mult = -0.02
+	}
+	unlocking_technologies = {
+		mass_propaganda
+		analytical_philosophy
+	}
+}
