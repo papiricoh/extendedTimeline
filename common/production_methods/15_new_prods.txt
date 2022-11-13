@@ -1,0 +1,15 @@
+﻿pm_las_building_vaccine_factory = {
+	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
+	building_modifiers = {
+		unlocking_technologies = {
+			antibiotics
+		}
+		workforce_scaled = {
+			# input goods
+			building_input_tools_add = 60			# x20 = 800
+			building_input_electricity_add = 20
+			building_input_medicines_add = 30			# x20 = 800
+			building_output_vaccines_add = 50			# x20 = 800
+		}
+	}
+}
