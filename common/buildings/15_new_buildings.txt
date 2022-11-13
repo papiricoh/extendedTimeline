@@ -3,11 +3,10 @@ airport = {
 	texture = "gfx/interface/icons/building_icons/airport.dds"
 	levels_per_mesh = 2
 	unlocking_technologies = {
-		civilian_planes		##MEDICINE
+		civilian_planes
 	}
 	production_method_groups = {
-		pmg_ownership_capital_building_hospital
-		pmg_production_capital_building_hospital
+		pmg_airports
 	}
 	required_construction = construction_cost_high
 	ai_value = 2000	# Railways are important
