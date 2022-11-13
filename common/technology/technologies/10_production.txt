@@ -721,7 +721,7 @@ compression_ignition = {
 ##20s and WWII##
 
 television = {
-	# Unlocks TV prod in electronic inds
+	# Unlocks TV prod in electronic inds  Y
 	era = era_6
 	texture = "gfx/interface/icons/invention_icons/TODO.dds"
 	category = production
@@ -745,8 +745,8 @@ stock_exchange_building = {
 }
 
 civilian_planes = {
-	# Unlocks civilian planes
-	# Unlocks airport
+	# Unlocks civilian planes	Y
+	# Unlocks airport	
 	era = era_6
 	texture = "gfx/interface/icons/invention_icons/TODO.dds"
 	category = production
