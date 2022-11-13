@@ -715,3 +715,159 @@ compression_ignition = {
 		combustion_engine
 	}
 }
+
+##NEW TECH##
+
+##20s and WWII##
+
+television = {
+	# Unlocks TV prod in electronic inds
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/TODO.dds"
+	category = production
+	
+	unlocking_technologies = {
+		telephone
+
+	}
+}
+
+stock_exchange_building = {
+	# Unlocks stock exchange building
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/TODO.dds"
+	category = production
+	
+	unlocking_technologies = {
+		television
+
+	}
+}
+
+civilian_planes = {
+	# Unlocks civilian planes
+	# Unlocks airport
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/TODO.dds"
+	category = production
+	
+	unlocking_technologies = {
+		compression_ignition
+		arc_welding
+	}
+}
+
+oil_refineries = {
+	# Unlocks oil refineries, produces Gasoline
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/TODO.dds"
+	category = production
+	
+	unlocking_technologies = {
+		oil_turbine
+	}
+}
+
+diesel_oil_refineries = {
+	# Unlocks diesel for oil refineries
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/TODO.dds"
+	category = production
+	
+	unlocking_technologies = {
+		oil_refineries
+	}
+}
+
+modern_cars = {
+	# Unlocks modern cars for automovile insdustry
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/TODO.dds"
+	category = production
+	
+	unlocking_technologies = {
+		diesel_oil_refineries
+	}
+}
+
+fracking = {
+	# Unlocks fraking into oil extraction
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/TODO.dds"
+	category = production
+	
+	unlocking_technologies = {
+		oil_refineries
+	}
+}
+
+automated_textiling = {
+	# Unlocks automated sewing machines into textile mills
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/TODO.dds"
+	category = production
+	
+	unlocking_technologies = {
+		dough_rollers
+	}
+}
+
+malls = {
+	# Unlocks malls sewing machines into urban center
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/TODO.dds"
+	category = production
+	
+	unlocking_technologies = {
+		automated_textiling
+		fracking
+	}
+}
+
+tv_broadcasts = {
+	# Unlocks tv broadcasting centers
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/TODO.dds"
+	category = production
+	
+	unlocking_technologies = {
+		television
+		stock_exchange_building
+	}
+}
+
+titanium_tools = {
+	# Unlocks titanium tools in tooling workshops
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/TODO.dds"
+	category = production
+	
+	unlocking_technologies = {
+		automated_textiling
+		civilian_planes
+	}
+}
+
+combustion_electric_pumps = {
+	# Unlocks combustion-electric pumps in all mine types
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/TODO.dds"
+	category = production
+	
+	unlocking_technologies = {
+		titanium_tools
+		fracking
+	}
+}
+
+extensive_livestock = {
+	# Unlocks extensive livestock in livestock ranches
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/TODO.dds"
+	category = production
+	
+	unlocking_technologies = {
+		titanium_tools
+		fracking
+	}
+}
