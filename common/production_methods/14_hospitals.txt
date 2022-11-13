@@ -123,6 +123,7 @@ pm_hand_made_vaccines_building_vaccine_factory = {
 			building_input_tools_add = 50			# x20 = 800
 			building_input_medicines_add = 20			# x20 = 800
 			building_output_vaccines_add = 30			# x20 = 800
+			building_output_services_add = 20				# x20 = 800
 		}
 	}
 }
@@ -139,6 +140,7 @@ pm_lab_made_vaccines_building_vaccine_factory = {
 			building_input_electricity_add = 20
 			building_input_medicines_add = 30			# x20 = 800
 			building_output_vaccines_add = 50			# x20 = 800
+			building_output_services_add = 60			# x20 = 800
 		}
 	}
 }
